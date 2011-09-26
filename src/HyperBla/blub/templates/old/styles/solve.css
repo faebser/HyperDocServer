@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+* {
+	margin:0;
+	padding:0;
+	font-family: 'NobileRegular';
+	color: #FFA500;
+	border: none;
+}
+
+#container,
+#top {
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	
+#container {
+	height:800px;
+	}
+
+#top {
+	margin:20px auto 20px auto;
+	}
+	
+#top h1 {
+	padding: 20px;
+	}
+#top span {
+	padding-left: 20px;
+	}
+	
+#top span {
+	clear: both;
+	}
+
+#content {
+	height: 100%;
+	width: 80%;
+	float:right;
+	background-color: #959595;
+	opacity: 0.7;
+}
+#menu {
+	height:100%;
+	width:20%;
+	background-color: #E3E3E3;
+	float:left;
+	opacity: 0.7;
+}
